@@ -30,8 +30,7 @@ public class landingpagestepdefinition {
 	public void user_is_on_landing_page() throws InterruptedException {
 		System.out.println("this is the landing page");
 		System.out.println("this is the landing page1");
-		System.out.println("this is the landing page2");
-		System.out.println("this is the landing page3");
+		
 	    
 	}
 	
