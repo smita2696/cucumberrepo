@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: cucumberoption.TestNGTestRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 1.405 s <<< FAILURE! -- in cucumberoption.TestNGTestRunner
+cucumberoption.TestNGTestRunner.runScenario["Search experience in both home and offer page", "Search the product and place the order for products"](2) -- Time elapsed: 0.335 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at pageObject.landingpage.searchItem(landingpage.java:18)
+	at stepdefinition.landingpagestepdefinition.user_searched_with_shortname_and_extracted_actual_name_of_product(landingpagestepdefinition.java:39)
+	at ✽.user searched with shortname Pot and extracted actual name of product(file:///D:/java/Cucumberrealtime/src/test/java/featurefile/featurefile.feature:6)
+
+cucumberoption.TestNGTestRunner.runScenario["Search experience in both home and offer page", "Search the product and place the order for products"](2) -- Time elapsed: 0.339 s <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at pageObject.landingpage.searchItem(landingpage.java:18)
+	at stepdefinition.landingpagestepdefinition.user_searched_with_shortname_and_extracted_actual_name_of_product(landingpagestepdefinition.java:39)
+	at ✽.user searched with shortname Tom and extracted actual name of product(file:///D:/java/Cucumberrealtime/src/test/java/featurefile/featurefile.feature:6)
+
